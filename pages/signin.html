@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Tech Store - Sign In</title>
+  <link rel="stylesheet" href="./../style/signin.css">
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+
+  <!-- Background Gradient -->
+  <div class="absolute inset-0 bg-gradient-custom opacity-80"></div>
+
+  <!-- Card -->
+  <div class="relative bg-white p-8 card w-80 z-10">
+    
+    <h2 class="text-2xl font-bold text-center text-blue-600 mb-2">
+      Student Tech Store
+    </h2>
+
+    <p class="text-center text-gray-500 text-sm mb-6">
+      Sign in to your account
+    </p>
+
+    <form>
+      
+      <!-- Email -->
+      <div class="mb-4">
+        <label class="block mb-1 text-sm font-semibold">Email</label>
+        <input type="email" placeholder="Enter your email" class="input">
+      </div>
+
+      <!-- Password -->
+      <div class="mb-4">
+        <label class="block mb-1 text-sm font-semibold">Password</label>
+        <input type="password" placeholder="Enter your password" class="input">
+      </div>
+
+      <!-- Options -->
+      <div class="flex justify-between items-center mb-4 text-sm">
+        <label class="flex items-center">
+          <input type="checkbox" class="mr-2"> Remember
+        </label>
+
+        <a href="#" class="text-blue-500 hover:underline">
+          Forgot?
+        </a>
+      </div>
+
+      <!-- Button -->
+      <button 
+        type="submit"
+        class="btn w-full py-2 rounded-lg"
+      >
+        Sign In
+      </button>
+
+    </form>
+
+    <!-- login-->
+    <p class="text-center text-sm mt-4">
+      Don't have an account?
+      <a href="#" class="text-blue-500 hover:underline">login</a>
+    </p>
+
+  </div>
+
+</body>
+</html>
+    

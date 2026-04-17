@@ -1,0 +1,35 @@
+/* Background Gradient */
+.bg-gradient-custom {
+  background: linear-gradient(to right, #4f83d6, #1bd2f2);
+}
+
+/* Card Shadow */
+.card {
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+  border-radius: 16px;
+}
+
+/* Input Focus */
+.input {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  width: 100%;
+}
+
+.input:focus {
+  outline: none;
+  border: 2px solid #3b82f6;
+}
+
+/* Button */
+.btn {
+  background: linear-gradient(to right, #1449a4, #15b8b8);
+  color: rgb(254, 254, 255);
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
