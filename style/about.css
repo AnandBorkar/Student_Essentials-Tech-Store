@@ -1,0 +1,26 @@
+/* General Styling */
+body {
+  scroll-behavior: smooth;
+  background-color: linear-gradient(to right, rgb(108, 130, 243), rgb(59, 59, 240));
+}
+
+/* Navbar hover effect */
+nav ul li a:hover {
+  color: #ffd700;
+  transition: 0.3s;
+}
+
+/* Card hover effect */
+div:hover {
+  transition: transform 0.3s ease;
+}
+
+/* Team image styling */
+img {
+  border: 3px solid #2563eb;
+}
+
+/* Footer */
+footer {
+  letter-spacing: 1px;
+}
